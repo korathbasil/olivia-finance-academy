@@ -19,6 +19,7 @@ body {
 }
 /* Loader */
 .loader {
+  z-index: 1;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -78,8 +79,6 @@ header {
 }
 .navigation {
   display: flex;
-}
-.navigation {
   list-style: none;
 }
 .nav-link {
@@ -93,6 +92,22 @@ header {
 }
 .nav-link--active {
   color: red;
+}
+.responsive-nav {
+  display: none;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  background-color: white;
+  width: 200px;
+}
+.responsive-navigation {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+}
+.responsive-nav-link {
+  margin: 10px;
 }
 /* Hero */
 .hero {
