@@ -11,6 +11,8 @@ a {
 }
 body {
   font-family: "Roboto", sans-serif;
+  /* Colors */
+  --primary: #21285f;
 }
 /* Loader */
 .loader {
@@ -48,7 +50,6 @@ body {
     transform: rotate(360deg);
   }
 }
-
 /* Loader End */
 /* Header */
 header {
@@ -59,6 +60,17 @@ header {
   padding: 0 4rem;
   /* background-color: aqua; */
 }
+.header-left {
+  display: flex;
+  align-items: center;
+}
+.header-left > img {
+  height: 100px;
+}
+.header-left > a {
+  color: var(--primary);
+  letter-spacing: 3px;
+}
 .navigation {
   display: flex;
 }
@@ -67,6 +79,9 @@ header {
   font-weight: 600;
   font-size: 20px;
   text-decoration: none;
+}
+.nav-link {
+  letter-spacing: 1px;
 }
 .nav-link--active {
   color: red;
@@ -80,4 +95,26 @@ header {
   justify-content: center;
   background: url("./public/cover.jpg");
   background-size: cover;
+}
+.hero-center {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-center > h1 {
+  font-weight: 1200;
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+.hero-center > h1:nth-child(1) {
+  font-size: 80px;
+  letter-spacing: 20px;
+  margin-bottom: 10px;
+}
+.hero-center > h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 15px;
 }
