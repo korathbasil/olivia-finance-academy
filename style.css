@@ -13,6 +13,7 @@ body {
   font-family: "Roboto", sans-serif;
   /* Colors */
   --primary: #21285f;
+  background-color: #f0f8ff;
 }
 .container {
   width: 70%;
@@ -63,7 +64,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0 4rem;
-  /* background-color: aqua; */
+  background-color: white;
 }
 .header-left {
   display: flex;
@@ -126,15 +127,17 @@ header {
 
 /* Courses */
 .courses {
-  height: 300px;
+  width: 100%;
+  /* height: 300px; */
 }
 .courses-contents {
-  margin-top: 200px;
+  margin: 100px 0;
+  width: 100%;
 }
 .courses-contents > h2 {
   margin-bottom: 100px;
 }
-.course-card {
+/* .course-card {
   width: 100%;
   padding: 50px;
   border: 2px solid red;
@@ -157,4 +160,37 @@ header {
 .course-card > ul > li {
   line-height: 30px;
   font-size: 20px;
+} */
+.course-card-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.course-card {
+  color: white;
+  width: 350px;
+  border-radius: 20px;
+  padding: 30px;
+  /* border: 5px solid var(--primary); */
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 5px 5px 5px #00000048;
+  /* background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%); */
+  background: linear-gradient(#000000ca, #000000ca), url("/public//card1.jpg");
+  background-size: cover;
+
+  /* background-color: rgba(0, 0, 0, 0.814); */
+}
+.course-card > h1 {
+  margin-bottom: 10px;
+  font-weight: 800;
+  color: red;
+}
+.course-card > p {
+  margin-bottom: 50px;
+  line-height: 30px;
+  font-size: 20px;
+  line-break: auto;
 }
