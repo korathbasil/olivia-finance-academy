@@ -3,32 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap Style -->
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Style -->
+    <!-- <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
-    />
+    /> -->
     <link rel="stylesheet" href="/style.css" />
     <title>Olivia</title>
   </head>
   <body>
-    <!-- Web Contents -->
+    <!-- Loader -->
+    <div id="loader" class="loader">
+      <div class="lds-dual-ring"></div>
+    </div>
+    <!-- Loader end -->
+    <!-- Header -->
     <header class="p-4 d-flex justify-content-between align-items-center">
-      <h1>Olivia Finance Academy</h1>
+      <a href="#"><h1>Olivia Finance Academy</h1></a>
       <nav>
-        <ul class="d-flex">
-          <li class="m-4 nav-link"><a href="#">Home</a></li>
-          <li class="m-4 nav-link"><a href="#">Courses</a></li>
-          <li class="m-4 nav-link"><a href="#">About</a></li>
-          <li class="m-4 nav-link"><a href="#">Contact</a></li>
+        <ul class="navigation">
+          <li class="nav-link"><a href="#">Home</a></li>
+          <li class="nav-link"><a href="#">Courses</a></li>
+          <li class="nav-link"><a href="/about.html">About</a></li>
+          <li class="nav-link"><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
-
-    <!-- End of Contents -->
-    <!-- Bootstarp Scripts -->
+    <section class="hero">
+      <h1>Olivia Finance Academy</h1>
+      <p></p>
+    </section>
+    <!-- Bootstarp Scripts
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -43,7 +56,7 @@
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
+    ></script> -->
+    <script src="/script.js"></script>
   </body>
 </html>

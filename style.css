@@ -7,12 +7,77 @@ li {
 }
 a {
   text-decoration: none;
+  color: black;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* Loader */
+.loader {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: white;
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid blue;
+  border-color: blue transparent blue transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Loader End */
+/* Header */
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem;
+  /* background-color: aqua; */
+}
+.navigation {
+  display: flex;
 }
 .nav-link {
+  margin: 0 30px;
   font-weight: 600;
   font-size: 20px;
   text-decoration: none;
 }
-.nav-link:link {
-  text-decoration: none;
+.nav-link--active {
+  color: red;
+}
+/* Hero */
+.hero {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("./public/cover.jpg");
+  background-size: cover;
 }
