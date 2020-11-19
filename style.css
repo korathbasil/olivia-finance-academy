@@ -12,6 +12,7 @@ body {
   /* Colors */
   --primary: #21285f;
   background-color: #f0f8ff;
+  overflow-y: hidden;
 }
 .container {
   width: 70%;
@@ -26,10 +27,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   background-color: white;
+  transition: opacity 0.4s ease-in;
 }
 .lds-dual-ring {
   display: inline-block;
