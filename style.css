@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
@@ -125,6 +126,15 @@ header {
   align-items: center;
   flex-direction: column;
 }
+.hero-center > a {
+  margin-top: 150px;
+  background-color: var(--primary);
+  color: white;
+  padding: 30px;
+  border-radius: 50px;
+  font-size: 25px;
+  font-weight: 1000;
+}
 .hero-center > h1 {
   font-weight: 1200;
   font-size: 60px;
@@ -216,6 +226,7 @@ header {
   line-height: 30px;
   font-size: 20px;
   line-break: auto;
+  word-break: break-all;
 }
 .card-button {
   margin-top: 30px;
