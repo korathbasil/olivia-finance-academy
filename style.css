@@ -417,21 +417,21 @@ footer {
   }
   /* Bottom Call to Action */
   .wa-container {
-    left: 10px;
-    bottom: 10px;
-    height: 40px;
-    width: 40px;
+    left: 15px;
+    bottom: 15px;
+    height: 45px;
+    width: 45px;
   }
   .tel-container {
-    bottom: 10px;
-    right: 10px;
-    height: 40px;
-    width: 40px;
+    bottom: 15px;
+    right: 15px;
+    height: 45px;
+    width: 45px;
   }
   .wa-bottom-link {
-    font-size: 25px;
+    font-size: 30px;
   }
   .tel-bottom-link {
-    font-size: 25px;
+    font-size: 30px;
   }
 }
