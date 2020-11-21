@@ -392,6 +392,7 @@ footer {
     left: 15px;
     border-radius: 99px;
     padding: 10px 0;
+    box-shadow: 3px 3px 10px #0000007b;
   }
   .social > a > i {
     font-size: 30px;
