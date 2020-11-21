@@ -260,7 +260,7 @@ header {
   background-size: cover;
 }
 .course-card:nth-child(2) {
-  background: linear-gradient(#000000ca, #000000ca), url("./public/card2.jpg");
+  background: linear-gradient(#000000ca, #000000ca), url("./public/card2.jpeg");
 }
 .course-card:nth-child(3) {
   background: linear-gradient(#000000ca, #000000ca), url("./public/card3.jpg");
