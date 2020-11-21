@@ -11,7 +11,7 @@ window.onload = () => {
     setTimeout(() => {
       turnOffLoader();
     }, 400);
-  }, 2000);
+  }, 1000);
 };
 
 const turnOffLoader = () => {

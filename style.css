@@ -122,6 +122,24 @@ header {
   background: url("./public/cover.jpg");
   background-size: cover;
 }
+.social {
+  position: fixed;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.social > a {
+  /* background-color: tomato; */
+}
+.social > a > i {
+  margin: 10px;
+  font-size: 30px;
+}
 .hero-center {
   color: white;
   display: flex;
