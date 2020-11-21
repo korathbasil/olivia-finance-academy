@@ -132,13 +132,28 @@ header {
   padding: 10px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .social > a {
   /* background-color: tomato; */
+  margin: 10px;
+  transition: transform 0.2s ease-in;
+}
+.social > a:hover {
+  transform: scale(1.1);
 }
 .social > a > i {
-  margin: 10px;
-  font-size: 30px;
+  font-size: 50px;
+  transition: color 0.2s ease-in;
+}
+.social > a:hover .fb-link {
+  color: blue;
+}
+.social > a:hover .insta-link {
+  color: orange;
+}
+.social > a:hover .yt-link {
+  color: red;
 }
 .hero-center {
   color: white;
