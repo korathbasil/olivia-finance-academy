@@ -386,7 +386,24 @@ footer {
     height: calc(100vh - 60px);
   }
   .social {
-    display: none;
+    position: fixed;
+    top: auto;
+    bottom: -10px;
+    left: 15px;
+    border-radius: 99px;
+    padding: 10px 0;
+  }
+  .social > a > i {
+    font-size: 30px;
+  }
+  .fb-link {
+    color: #4267b2;
+  }
+  .insta-link {
+    color: #e1306c;
+  }
+  .yt-link {
+    color: #ff0000;
   }
   .hero-center > h1 {
     font-weight: 1200;
