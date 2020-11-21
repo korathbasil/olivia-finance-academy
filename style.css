@@ -391,7 +391,7 @@ footer {
   .hero-center > h1 {
     font-weight: 1200;
     font-size: 30px;
-    letter-spacing: 8px;
+    letter-spacing: 3px;
   }
   .hero-center > h1:nth-child(1) {
     font-size: 35px;
