@@ -130,6 +130,7 @@ header {
     url("./public/cover.jpg");
   background-size: cover;
 }
+/* Social */
 .social {
   position: fixed;
   top: 50%;
@@ -163,6 +164,7 @@ header {
 .social > a:hover .yt-link {
   color: #ff0000;
 }
+/* Social end */
 .hero-center {
   color: white;
   display: flex;
@@ -365,5 +367,61 @@ footer {
   }
   .navigation {
     display: none;
+  }
+}
+/* Mobile View */
+@media (max-width: 420px) {
+  header {
+    padding: 0 5px;
+    height: 60px;
+  }
+  .header-left > img {
+    height: 60px;
+  }
+  .header-left > a {
+    display: none;
+  }
+  .hero {
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+  }
+  .social {
+    display: none;
+  }
+  .hero-center > h1 {
+    font-weight: 1200;
+    font-size: 30px;
+    letter-spacing: 8px;
+  }
+  .hero-center > h1:nth-child(1) {
+    font-size: 35px;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+  }
+  .hero-center > h1:nth-child(2) {
+    font-size: 30px;
+    /* margin-bottom: 10px; */
+  }
+  .hero-center > h3 {
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px 0;
+  }
+  .hero-center > a {
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 1000;
+  }
+  /* Bottom Call to Action */
+  .wa-container {
+    left: 10px;
+    bottom: 10px;
+  }
+  .tel-container {
+    bottom: 10px;
+    right: 10px;
   }
 }
