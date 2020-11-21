@@ -254,14 +254,14 @@ header {
   align-items: center;
   flex-direction: column;
   box-shadow: 5px 5px 5px #00000048;
-  background: linear-gradient(#000000ca, #000000ca), url("/public/card1.jpg");
+  background: linear-gradient(#000000ca, #000000ca), url("./public/card1.jpg");
   background-size: cover;
 }
 .course-card:nth-child(2) {
-  background: linear-gradient(#000000ca, #000000ca), url("/public/card2.jpg");
+  background: linear-gradient(#000000ca, #000000ca), url("./public/card2.jpg");
 }
 .course-card:nth-child(3) {
-  background: linear-gradient(#000000ca, #000000ca), url("/public/card3.jpg");
+  background: linear-gradient(#000000ca, #000000ca), url("./public/card3.jpg");
 }
 .course-card > h1 {
   margin-bottom: 10px;
