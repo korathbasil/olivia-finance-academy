@@ -28,28 +28,58 @@
       <div id="responsive-nav" class="responsive-nav">
         <nav>
           <ul class="responsive-navigation">
-            <li class="responsive-nav-link"><a href="/">Home</a></li>
-            <li class="responsive-nav-link"><a href="#">Courses</a></li>
-            <li class="responsive-nav-link"><a href="/about.html">About</a></li>
             <li class="responsive-nav-link">
-              <a href="/contact.html">Contact</a>
+              <a id="acca" onclick="setActiveTab('acca')" href="/">Home</a>
+            </li>
+            <li class="responsive-nav-link">
+              <a onclick="setActiveTab('cma')" id="cma" href="#">Courses</a>
+            </li>
+            <li class="responsive-nav-link">
+              <a
+                onclick="setActiveTab('certifrs')"
+                id="certifrs"
+                href="/about.html"
+                >About</a
+              >
+            </li>
+            <li class="responsive-nav-link">
+              <a
+                onclick="setActiveTab('diplomaifrs')"
+                id="diplomaifrs"
+                href="/contact.html"
+                >Contact</a
+              >
             </li>
           </ul>
         </nav>
       </div>
     </header>
     <!-- Header End -->
-    <div class="courses-body">
-      <div class="container">
+    <div class="container">
+      <div class="courses-body">
         <div class="courses-sidebar">
-          <ul class="corses-sidebar-nav">
-            <li><a href="">ACCA</a></li>
-            <li><a href="">CMA (USA)</a></li>
-            <li><a href="">Certification in OFRS</a></li>
-            <li><a href="">Diploma in IFRS</a></li>
+          <ul class="courses-sidebar-nav">
+            <h2>All Courses</h2>
+            <li><a class="sidebar-nav-link" href="#ACCA">ACCA</a></li>
+            <li><a class="sidebar-nav-link" href="#CMA">CMA (USA)</a></li>
+            <li>
+              <a class="sidebar-nav-link" href="#IFRS1"
+                >Certification in IFRS</a
+              >
+            </li>
+            <li>
+              <a class="sidebar-nav-link" href="#IFRS2">Diploma in IFRS</a>
+            </li>
           </ul>
         </div>
       </div>
     </div>
   </body>
+  <script>
+    const setActiveTab = (elementId) => {
+      document
+        .getElementById(elementId)
+        .classList.add("sidebar-nav-link--active");
+    };
+  </script>
 </html>

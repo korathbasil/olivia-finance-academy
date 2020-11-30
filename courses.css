@@ -1,4 +1,37 @@
 .courses-body {
   width: 100%;
   margin-top: 100px;
+  display: flex;
+}
+.courses-sidebar {
+  width: 300px;
+}
+.courses-sidebar-nav {
+  padding: 20px 0;
+  background-color: white;
+  margin: 20px 0;
+  box-shadow: 3px 3px 10px grey;
+}
+.courses-sidebar-nav > h2 {
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+.courses-sidebar-nav > li {
+  list-style: none;
+}
+.sidebar-nav-link {
+  padding: 20px;
+  /* background-color: blue; */
+  display: block;
+  font-size: 20px;
+  font-weight: 800;
+  transition: all 0.2s ease-in;
+}
+.sidebar-nav-link:hover {
+  background-color: rgba(0, 0, 255, 0.47);
+  color: white;
+}
+.sidebar-nav-link--active {
+  background-color: blue;
 }
