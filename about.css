@@ -1,0 +1,6 @@
+.about {
+  height: calc(100vh - 200px);
+  width: 100%;
+  margin-top: 100px;
+  background-color: brown;
+}
